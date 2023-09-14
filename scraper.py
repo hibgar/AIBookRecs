@@ -4,11 +4,17 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import StaleElementReferenceException, NoSuchElementException
 import time
 import bs4
+import spacy
+from textblob import TextBlob
 
 driver = webdriver.Firefox()
 
+def findBookGenres():
+    print()
+
+
 # insert link to YOUR OWN list of books you want to find a similar one to
-driver.get('https://www.goodreads.com/review/list/99850740-hiba?ref=nav_mybooks&shelf=favorites') #open GR site with the list
+driver.get('https://www.goodreads.com/review/list/99850740-hiba?ref=nav_mybooks&shelf=favorites')  # open GR site with the list
 print(driver.title)
 
 booksTable = driver.find_element(By.ID, "booksBody")
@@ -19,7 +25,6 @@ for row in rows:
     print(col.text)  # prints title of each book
 
     book_title_element = col.find_element(By.TAG_NAME, "a")
-
     # Extract the book title text
     book_title = book_title_element.text
 
@@ -33,7 +38,7 @@ for row in rows:
     driver2 = webdriver.Firefox()
     # Navigate to a new URL in the newly opened window or tab
     driver2.get(book_link)
-
+    driver2.implicitly_wait(10)  # seconds
     driver2.close()  # to go back to the prev page
 
 driver.get('https://www.goodreads.com/list/show/63.Favorite_Books')
