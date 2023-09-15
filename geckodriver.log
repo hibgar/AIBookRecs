@@ -3579,3 +3579,342 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1694739471446	geckodriver	INFO	Listening on 127.0.0.1:37713
+1694739471951	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33927" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6Y8nL4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739472470	Marionette	INFO	Marionette enabled
+1694739472542	Marionette	INFO	Listening on port 46257
+WebDriver BiDi listening on ws://127.0.0.1:33927
+Read port: 46257
+1694739472618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33927/devtools/browser/42c54dca-c9ce-4c9c-b17a-02a78ee238bc
+1694739476430	geckodriver	INFO	Listening on 127.0.0.1:41379
+JavaScript warning: https://www.goodreads.com/review/list/99850740-hiba?ref=nav_mybooks&shelf=favorites line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+JavaScript warning: https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval line 3314 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+1694739476933	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "34043" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledwdGCK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739477611	Marionette	INFO	Marionette enabled
+1694739477700	Marionette	INFO	Listening on port 45451
+WebDriver BiDi listening on ws://127.0.0.1:34043
+Read port: 45451
+1694739477983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34043/devtools/browser/46dd0b67-f495-43b3-9a33-5d605fed8b29
+1694739482593	Marionette	INFO	Stopped listening on port 45451
+1694739483396	geckodriver	INFO	Listening on 127.0.0.1:44057
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1694739497334	geckodriver	INFO	Listening on 127.0.0.1:53129
+1694739497838	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49923" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewrZoxL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739498388	Marionette	INFO	Marionette enabled
+1694739498460	Marionette	INFO	Listening on port 38273
+WebDriver BiDi listening on ws://127.0.0.1:49923
+Read port: 38273
+1694739498673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49923/devtools/browser/81edb85b-4b3a-4ce9-846a-b881ecdefe87
+1694739502141	geckodriver	INFO	Listening on 127.0.0.1:35507
+1694739502645	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOWEhN1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+JavaScript warning: https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval line 514 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: RENOIR
+1694739503267	Marionette	INFO	Marionette enabled
+1694739503358	Marionette	INFO	Listening on port 38135
+WebDriver BiDi listening on ws://127.0.0.1:45445
+Read port: 38135
+1694739503616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45445/devtools/browser/0c0e1af5-79c8-4a3a-b46d-0f2942b30885
+1694739508454	Marionette	INFO	Stopped listening on port 38135
+1694739509493	geckodriver	INFO	Listening on 127.0.0.1:49371
+1694739509997	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCr012a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739510521	Marionette	INFO	Marionette enabled
+1694739510594	Marionette	INFO	Listening on port 42813
+Read port: 42813
+WebDriver BiDi listening on ws://127.0.0.1:44883
+1694739510672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:44883/devtools/browser/37ce92fb-6acc-4f7a-86f7-92a24fc35b3f
+1694739519112	Marionette	INFO	Stopped listening on port 42813
+JavaScript warning: https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval line 4831 > eval line 1 > eval, line 1: Script terminated by timeout at:
+@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval line 4831 > eval line 1 > eval:1:103
+@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval line 4831 > eval:1:114
+C7@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:21929
+dB@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:18931
+Z.prototype.I</<@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:36301
+s$@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:21093
+e@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:8090
+y@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:4774
+e/<@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:8156
+q4</<@https://pagead2.googlesyndication.com/bg/t8GibRNARgYsE0Sx_-jM8Z9WBbCCL83x92A0C_FtaJU.js line 2 > eval:4831:33968
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dpubmatic.com%26id%3DPM_UID, line 1: Script terminated by timeout at:
+aq@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dpubmatic.com%26id%3DPM_UID:1:10718
+l/<@https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156011&s=165626&predirect=https%3A%2F%2Fs.amazon-adsystem.com%2Fecm3%3Fex%3Dpubmatic.com%26id%3DPM_UID:1:14504
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694739519883	geckodriver	INFO	Listening on 127.0.0.1:36161
+1694739520387	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "37847" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebclLYC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739520906	Marionette	INFO	Marionette enabled
+1694739520979	Marionette	INFO	Listening on port 43481
+WebDriver BiDi listening on ws://127.0.0.1:37847
+Read port: 43481
+1694739521054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:37847/devtools/browser/216941d5-9ce8-4cad-bcd2-8774ebe179d6
+1694739527687	Marionette	INFO	Stopped listening on port 43481
+JavaScript warning: https://m.media-amazon.com/images/I/41mrkPcyPwL.js, line 1: Script terminated by timeout at:
+y/<@https://m.media-amazon.com/images/I/41mrkPcyPwL.js:1:657
+
+1694739528318	geckodriver	INFO	Listening on 127.0.0.1:42085
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1694739528821	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHHju2b"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739529347	Marionette	INFO	Marionette enabled
+1694739529420	Marionette	INFO	Listening on port 37721
+Read port: 37721
+WebDriver BiDi listening on ws://127.0.0.1:48957
+1694739529493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48957/devtools/browser/0bef0e2c-6ce8-4d7f-8cc9-d211579ff87d
+1694739535410	Marionette	INFO	Stopped listening on port 37721
+JavaScript warning: https://www.goodreads.com/_next/static/chunks/node_vendors~70aabc29.dd79c68f9572a206b103.js, line 1: Script terminated by timeout at:
+fiWp/a.prototype.emit@https://www.goodreads.com/_next/static/chunks/node_vendors~70aabc29.dd79c68f9572a206b103.js:1:326376
+Lh65/handleRequest/<@https://www.goodreads.com/_next/static/chunks/node_vendors~b1a98620.e0291fd053777588f25e.js:1:68129
+
+1694739536125	geckodriver	INFO	Listening on 127.0.0.1:51725
+1694739536627	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "56185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVbGVKA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739537150	Marionette	INFO	Marionette enabled
+1694739537221	Marionette	INFO	Listening on port 41345
+Read port: 41345
+WebDriver BiDi listening on ws://127.0.0.1:56185
+1694739537319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56185/devtools/browser/794a9a7b-16e1-4a57-a663-4bf8ebf2a74f
+1694739543271	Marionette	INFO	Stopped listening on port 41345
+JavaScript warning: https://m.media-amazon.com/images/I/41mrkPcyPwL.js, line 1: Script terminated by timeout at:
+y/<@https://m.media-amazon.com/images/I/41mrkPcyPwL.js:1:657
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1694739543888	geckodriver	INFO	Listening on 127.0.0.1:58059
+1694739544391	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenhcC5q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739544902	Marionette	INFO	Marionette enabled
+1694739544974	Marionette	INFO	Listening on port 36429
+WebDriver BiDi listening on ws://127.0.0.1:33745
+Read port: 36429
+1694739545139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33745/devtools/browser/632481c0-bd9e-4b1b-b7ba-74f4592a9772
+1694739550685	Marionette	INFO	Stopped listening on port 36429
+JavaScript warning: https://m.media-amazon.com/images/I/41mrkPcyPwL.js, line 1: Script terminated by timeout at:
+y/<@https://m.media-amazon.com/images/I/41mrkPcyPwL.js:1:657
+
+1694739551410	geckodriver	INFO	Listening on 127.0.0.1:55347
+1694739551914	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "59573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilem30PT1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739552480	Marionette	INFO	Marionette enabled
+1694739552551	Marionette	INFO	Listening on port 39129
+WebDriver BiDi listening on ws://127.0.0.1:59573
+Read port: 39129
+1694739552774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59573/devtools/browser/f9a3a48c-fcd2-4334-88a1-8bc0023e440a
+1694739557874	Marionette	INFO	Stopped listening on port 39129
+1694739558563	geckodriver	INFO	Listening on 127.0.0.1:53805
+1694739559067	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "59467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9myMPk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739559608	Marionette	INFO	Marionette enabled
+1694739559680	Marionette	INFO	Listening on port 40685
+WebDriver BiDi listening on ws://127.0.0.1:59467
+Read port: 40685
+1694739559899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59467/devtools/browser/28f90d52-8d28-46ad-9794-6ff2678c521e
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+1694739565229	Marionette	INFO	Stopped listening on port 40685
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914, line 1: Script terminated by timeout at:
+ca@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:1:509
+@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:2:3
+@https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914:283:689
+
+JavaScript error: https://www.goodreads.com/book/show/45164092-call-it-what-you-want, line 2: ReferenceError: osdlfm is not defined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+1694739565848	geckodriver	INFO	Listening on 127.0.0.1:55673
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+JavaScript error: https://s.gr-assets.com/assets/review/list-848c7ab98d543929c014e94c55e6e268.js, line 1: TypeError: $$(...)[0] is undefined
+1694739566352	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexpjER9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739566875	Marionette	INFO	Marionette enabled
+1694739566951	Marionette	INFO	Listening on port 36319
+Read port: 36319
+WebDriver BiDi listening on ws://127.0.0.1:51301
+1694739567030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51301/devtools/browser/de012ac0-0ab6-4f36-a31b-e39b0d395b89
+1694739572237	Marionette	INFO	Stopped listening on port 36319
+JavaScript warning: https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js, line 1: Script terminated by timeout at:
+FGyW/<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:83231
+FGyW/emit/</i<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:67921
+
+JavaScript warning: https://m.media-amazon.com/images/I/41mrkPcyPwL.js, line 1: Script terminated by timeout at:
+y/<@https://m.media-amazon.com/images/I/41mrkPcyPwL.js:1:657
+
+1694739572957	geckodriver	INFO	Listening on 127.0.0.1:60005
+1694739573460	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "56359" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilez1DyvI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739573982	Marionette	INFO	Marionette enabled
+1694739574079	Marionette	INFO	Listening on port 33707
+WebDriver BiDi listening on ws://127.0.0.1:56359
+Read port: 33707
+1694739574307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56359/devtools/browser/966df334-9ed5-401e-baee-25d6661d32aa
+1694739578642	Marionette	INFO	Stopped listening on port 33707
+1694739579404	geckodriver	INFO	Listening on 127.0.0.1:39403
+1694739579907	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileS91WL9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739580435	Marionette	INFO	Marionette enabled
+1694739580519	Marionette	INFO	Listening on port 34071
+WebDriver BiDi listening on ws://127.0.0.1:45419
+Read port: 34071
+1694739580750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45419/devtools/browser/e8d0e662-0108-454b-88f1-d2434794df02
+1694739585966	Marionette	INFO	Stopped listening on port 34071
+JavaScript warning: https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js, line 1: Script terminated by timeout at:
+FGyW/<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:83231
+FGyW/emit/</i<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:67921
+
+1694739586720	geckodriver	INFO	Listening on 127.0.0.1:48045
+1694739587223	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCWDUy2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739587725	Marionette	INFO	Marionette enabled
+1694739587799	Marionette	INFO	Listening on port 44109
+WebDriver BiDi listening on ws://127.0.0.1:40227
+Read port: 44109
+1694739587990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:40227/devtools/browser/b89efceb-3020-4220-b548-3e051d16f7d8
+1694739593308	Marionette	INFO	Stopped listening on port 44109
+JavaScript warning: https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js, line 1: Script terminated by timeout at:
+FGyW/<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:83231
+FGyW/emit/</i<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:67921
+
+1694739593960	geckodriver	INFO	Listening on 127.0.0.1:55495
+1694739594463	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45157" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0PeXQ9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739594976	Marionette	INFO	Marionette enabled
+1694739595048	Marionette	INFO	Listening on port 35045
+WebDriver BiDi listening on ws://127.0.0.1:45157
+Read port: 35045
+1694739595220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45157/devtools/browser/fc1b3485-42bd-40c8-a155-28ea8e49039d
+1694739600264	Marionette	INFO	Stopped listening on port 35045
+JavaScript warning: https://m.media-amazon.com/images/I/41mrkPcyPwL.js, line 1: Script terminated by timeout at:
+y/<@https://m.media-amazon.com/images/I/41mrkPcyPwL.js:1:657
+
+1694739600989	geckodriver	INFO	Listening on 127.0.0.1:52261
+1694739601493	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKi0thX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739602014	Marionette	INFO	Marionette enabled
+1694739602088	Marionette	INFO	Listening on port 35051
+Read port: 35051
+WebDriver BiDi listening on ws://127.0.0.1:60817
+1694739602165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60817/devtools/browser/8774edb6-a2c1-482e-a3ae-d9cd32f81509
+1694739610667	Marionette	INFO	Stopped listening on port 35051
+JavaScript warning: https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js, line 1: Script terminated by timeout at:
+FGyW/<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:83231
+FGyW/emit/</i<@https://www.goodreads.com/_next/static/chunks/node_vendors~f9ca8911.f4324596672264d6b5dd.js:1:67921
+
+JavaScript warning: https://m.media-amazon.com/images/I/41mrkPcyPwL.js, line 1: Script terminated by timeout at:
+y/<@https://m.media-amazon.com/images/I/41mrkPcyPwL.js:1:657
+
+1694739611328	geckodriver	INFO	Listening on 127.0.0.1:44551
+1694739611832	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50071" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMyzeBE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694739612382	Marionette	INFO	Marionette enabled
+1694739612456	Marionette	INFO	Listening on port 44791
+WebDriver BiDi listening on ws://127.0.0.1:50071
+Read port: 44791
+1694739612642	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50071/devtools/browser/851863b1-5d1a-4653-b2e4-ef21a751c71c
+1694739617254	Marionette	INFO	Stopped listening on port 44791
+1694739617868	Marionette	INFO	Stopped listening on port 38273
+JavaScript warning: https://c.amazon-adsystem.com/bao-csm/direct/csm_view_onlyv6.js, line 1: Script terminated by timeout at:
+a.setInterval/<@https://c.amazon-adsystem.com/bao-csm/direct/csm_view_onlyv6.js:1:10372
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

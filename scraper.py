@@ -9,12 +9,16 @@ from textblob import TextBlob
 
 driver = webdriver.Firefox()
 
-def findBookGenres(bookDriver):
+def findBookGenres(bookDriver, dict):
     genresTable = bookDriver.find_element(By.CLASS_NAME, "CollapsableList")
     genres = bookDriver.find_elements(By.CLASS_NAME, "BookPageMetadataSection__genreButton")
     for genre in genres:
         a = genre.find_element(By.TAG_NAME, "a")
         nameOfGenre = a.find_element(By.TAG_NAME, "span").text
+        if nameOfGenre not in dict:
+            dict[nameOfGenre] = 1
+        else:
+            dict[nameOfGenre] += 1
         print(nameOfGenre)
     return 1
 
@@ -22,6 +26,7 @@ def findBookGenres(bookDriver):
 # insert link to YOUR OWN list of books you want to find a similar one to
 driver.get('https://www.goodreads.com/review/list/99850740-hiba?ref=nav_mybooks&shelf=favorites')  # open GR site with the list
 print(driver.title)
+userFavoriteGenres = {}
 
 booksTable = driver.find_element(By.ID, "booksBody")
 rows = booksTable.find_elements(By.TAG_NAME, "tr")  # get all of the rows in the table
@@ -44,10 +49,11 @@ for row in rows:
     driver2 = webdriver.Firefox()
     # Navigate to a new URL in the newly opened window or tab
     driver2.get(book_link)
-    listGenres = findBookGenres(driver2)
-    driver2.implicitly_wait(10)  # seconds
+    #find all the most common genres and save it into listGenres
+    listGenres = findBookGenres(driver2, userFavoriteGenres)
     driver2.close()  # to go back to the prev page
-
-driver.get('https://www.goodreads.com/list/show/63.Favorite_Books')
+    
+print(userFavoriteGenres)
+#driver.get('https://www.goodreads.com/list/show/63.Favorite_Books')
 
 driver.close()  # close the browser
