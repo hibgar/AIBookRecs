@@ -9,8 +9,14 @@ from textblob import TextBlob
 
 driver = webdriver.Firefox()
 
-def findBookGenres():
-    print()
+def findBookGenres(bookDriver):
+    genresTable = bookDriver.find_element(By.CLASS_NAME, "CollapsableList")
+    genres = bookDriver.find_elements(By.CLASS_NAME, "BookPageMetadataSection__genreButton")
+    for genre in genres:
+        a = genre.find_element(By.TAG_NAME, "a")
+        nameOfGenre = a.find_element(By.TAG_NAME, "span").text
+        print(nameOfGenre)
+    return 1
 
 
 # insert link to YOUR OWN list of books you want to find a similar one to
@@ -38,6 +44,7 @@ for row in rows:
     driver2 = webdriver.Firefox()
     # Navigate to a new URL in the newly opened window or tab
     driver2.get(book_link)
+    listGenres = findBookGenres(driver2)
     driver2.implicitly_wait(10)  # seconds
     driver2.close()  # to go back to the prev page
 
