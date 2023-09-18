@@ -3,8 +3,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 
+# Create FirefoxOptions object
+firefox_options = Options()
+firefox_options.add_argument('--headless')  # Run Firefox in headless mode
+# Create a WebDriver instance using the Firefox driver and options
+#driver = webdriver.Firefox(options=firefox_options)
+
 driver = webdriver.Firefox()
-userFavoriteGenres = {"Fiction" : 1}
+userFavoriteGenres = {"Fiction" : 1, 'Young Adult' : 2, 'Fantasy' : 3}
 bookScores = {}
 
 def findBookGenres(bookDriver, dict):
@@ -46,24 +52,28 @@ def analyzeUserList():
         driver2.get(book_link)
         # find all the most common genres and save it into listGenres
         listGenres = findBookGenres(driver2, userFavoriteGenres)
-        driver2.close()  # to go back to the prev page
+
+        driver2.close()
 
     print(userFavoriteGenres)
 
 def analyzePublicList():
-    #driver.get('https://www.goodreads.com/list/show/63.Favorite_Books')
-    driver.get('https://www.goodreads.com/list/show/154685.TOP_YA_Dystopian_Books_of_ALL_TIME')
+    driver.get('https://www.goodreads.com/list/show/63.Favorite_Books')
+    #driver.get('https://www.goodreads.com/list/show/154685.TOP_YA_Dystopian_Books_of_ALL_TIME')
 
     booksTable = driver.find_element(By.ID, "all_votes")
 
     rows = booksTable.find_elements(By.TAG_NAME, "tr")  # get all of the rows in the table
     for row in rows:
 
-        bookClass = row.find_element(By.CLASS_NAME, "bookTitle")
+        try:
+            bookClass = row.find_element(By.CLASS_NAME, "bookTitle")
+        except Exception as e:
+            bookClass = row.find_element(By.CLASS_NAME, "Text Text__title1")
         book_title = bookClass.find_element(By.TAG_NAME, 'span').text
         print(book_title)
         book_link = bookClass.get_attribute('href')
-
+        print(book_link)
         # New browser to loop thru the books so that the for loop of the initial page is preserved
         driver2 = webdriver.Firefox()
         # Navigate to a new URL in the newly opened window or tab
@@ -80,7 +90,7 @@ def analyzePublicList():
         if score > 0:
             bookScores[book_title] = score
 
-        driver2.close()  # to go back to the prev page
+    driver2.close()
 
     print("Based on your favorite genres, you would enjoy: ")
     for rec in bookScores:
