@@ -10,7 +10,8 @@ firefox_options.add_argument('--headless')  # Run Firefox in headless mode
 #driver = webdriver.Firefox(options=firefox_options)
 
 driver = webdriver.Firefox()
-userFavoriteGenres = {"Fiction" : 1, 'Young Adult' : 2, 'Fantasy' : 3}
+#userFavoriteGenres = {"Fiction" : 1, 'Young Adult' : 2, 'Fantasy' : 3}
+userFavoriteGenres = {}
 bookScores = {}
 
 def findBookGenres(bookDriver, dict):
@@ -19,10 +20,10 @@ def findBookGenres(bookDriver, dict):
         a = genre.find_element(By.TAG_NAME, "a")
         nameOfGenre = a.find_element(By.TAG_NAME, "span").text
         if nameOfGenre in dict:
-            dict[nameOfGenre] = 1
-        else:
             dict[nameOfGenre] += 1
-        print(nameOfGenre)
+        else:
+            dict[nameOfGenre] = 1
+
     return 1
 
 def analyzeUserList():
@@ -40,11 +41,10 @@ def analyzeUserList():
         book_title_element = col.find_element(By.TAG_NAME, "a")
         # Extract the book title text
         book_title = book_title_element.text
+        # print(f"Title: {book_title}")
 
         # Get the href attribute of the link
         book_link = book_title_element.get_attribute('href')
-
-        print(f"Title: {book_title}")
 
         # New browser to loop thru the books so that the for loop of the initial page is preserved
         driver2 = webdriver.Firefox()
@@ -58,8 +58,8 @@ def analyzeUserList():
     print(userFavoriteGenres)
 
 def analyzePublicList():
-    driver.get('https://www.goodreads.com/list/show/63.Favorite_Books')
-    #driver.get('https://www.goodreads.com/list/show/154685.TOP_YA_Dystopian_Books_of_ALL_TIME')
+    #driver.get('https://www.goodreads.com/list/show/63.Favorite_Books')
+    driver.get('https://www.goodreads.com/list/show/154685.TOP_YA_Dystopian_Books_of_ALL_TIME')
 
     booksTable = driver.find_element(By.ID, "all_votes")
 
@@ -71,9 +71,10 @@ def analyzePublicList():
         except Exception as e:
             bookClass = row.find_element(By.CLASS_NAME, "Text Text__title1")
         book_title = bookClass.find_element(By.TAG_NAME, 'span').text
+        book_rating = row.find_element(By.CLASS_NAME, "minirating").text[0:4]
         print(book_title)
+
         book_link = bookClass.get_attribute('href')
-        print(book_link)
         # New browser to loop thru the books so that the for loop of the initial page is preserved
         driver2 = webdriver.Firefox()
         # Navigate to a new URL in the newly opened window or tab
@@ -87,15 +88,15 @@ def analyzePublicList():
             if nameOfGenre in userFavoriteGenres:
                 score += 1
 
-        if score > 0:
+        if score > 0 and float(book_rating) > 3.00:
             bookScores[book_title] = score
 
-    driver2.close()
+        driver2.close()
 
-    print("Based on your favorite genres, you would enjoy: ")
+    print("Based on your favorite genres, you would enjoy the following books, starting with the best recommendation: ")
     for rec in bookScores:
         print(rec)
 
-#analyzeUserList()
+analyzeUserList()
 analyzePublicList()
 driver.close()  # close the browser
