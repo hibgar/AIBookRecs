@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a cozy background color */
+.content {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Create a container for the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header with a cozy background and centered text */
+header {
+  background-color: #39424e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #39424e;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff6f61;
+}
+
+/* Style the bookshelf-like content */
+.bookshelf {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual "book" elements */
+.book {
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.book img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Style footer with a cozy background */
+footer {
+  background-color: #39424e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Add media queries for responsive design if needed */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .book {
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+  }
+}

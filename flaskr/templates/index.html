@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Get Your Read!{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="userList">Paste the link to a list you made: </label>
+    <input name="userList" id="userList" required>
+    <br>
+    <label for="publicList">Paste the link to a public list to get recommendations from: </label>
+    <input type="publicList" name="publicList" id="publicList" required>
+    <input type="submit" value="Get Recs!">
+  </form>
+{% endblock %}
