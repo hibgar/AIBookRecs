@@ -3,11 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 /* Set a cozy background color */
 .content {
-  background-color: #f5f5f5;
+  background-color: #f5dddd;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -21,8 +22,7 @@
 
 /* Style the header with a cozy background and centered text */
 header {
-  background-color: #39424e;
-  color: #fff;
+  background-color: #635656;
   text-align: center;
   padding: 20px 0;
 }
@@ -44,13 +44,8 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #39424e;
+  color: #635656;
   font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #ff6f61;
 }
 
 /* Style the bookshelf-like content */
@@ -79,14 +74,6 @@ nav a:hover {
   max-height: 100%;
 }
 
-/* Style footer with a cozy background */
-footer {
-  background-color: #39424e;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
 /* Add media queries for responsive design if needed */
 @media (max-width: 768px) {
   .container {
@@ -98,4 +85,9 @@ footer {
     height: 150px;
     margin: 5px;
   }
+}
+
+.formels {
+    font-family: 'EB Garamond', serif;
+    color: #111;
 }
